@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: controller
+netty:
+  default:
+    allocator:
+      max-order: 3
+
+#tag::kafka[]
+kafka:
+  enabled: true
+#end::kafka[]
+

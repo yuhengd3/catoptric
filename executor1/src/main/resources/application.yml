@@ -1,0 +1,14 @@
+micronaut:
+  application:
+    name: executor1
+  server:
+    port: 8081
+netty:
+  default:
+    allocator:
+      max-order: 3
+
+#tag::kafka[]
+kafka:
+  enabled: true
+#end::kafka[]
